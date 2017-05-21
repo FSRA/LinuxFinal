@@ -2,7 +2,8 @@
 
 #include "include/my_stack.h"
 
-int main(void) {
+int main(void) 
+{
 	int x;	
 
 
