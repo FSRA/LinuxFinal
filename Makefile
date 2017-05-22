@@ -20,4 +20,4 @@ clean:
 	if [ -e my_queue.o ]; then rm my_queue.o; fi
 	if [ -e my_tree.o ]; then rm my_tree.o; fi
 	if [ -e my_graph.o ]; then rm my_graph.o; fi
-		if [ -e my_heap.o ]; then rm my_heap.o; fi
+        if [ -e my_heap.o ]; then rm my_heap.o; fi
