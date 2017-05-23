@@ -1,9 +1,9 @@
 #ifndef _MY_TREE_H
 #define _MY_TREE_H
-
+/*
 #define ElemType int;			//数据类型
 #define Status int;			//返回值类型
-
+*/
 //定义二叉树结构
 typedef struct BiTNode
 {
