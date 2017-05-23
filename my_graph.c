@@ -15,6 +15,8 @@ typedef struct
       int  numVertexes, numEdges;      //图中当前的顶点数和边数
 }Graph;
 */
+int visited[MAXVEX]={0};
+
 void CreateGraph(Graph *g)
 {    int i,j,k,w,t;
      printf("输入顶点数，边数和t（中间用空格）:");
