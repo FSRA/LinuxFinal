@@ -3,6 +3,8 @@
  */
 
 #include "include/my_heap.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 void HeapAdjust(int arr[],int i,int length)
     {
