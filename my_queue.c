@@ -3,6 +3,7 @@
  */
 #include "include/my_queue.h"
 #include <stdlib.h>
+#include <stdio.h>
 /*
 #define ElemType int
 #define Status int
