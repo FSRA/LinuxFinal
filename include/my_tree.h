@@ -20,3 +20,4 @@ int TreeDeep(BiTree T);
 int Leafcount(BiTree T,int num);
 
 #endif //_MY_TREE_H
+#endif //_MY_QUEUE_H
