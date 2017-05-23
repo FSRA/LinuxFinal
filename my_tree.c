@@ -3,6 +3,8 @@
  */
 
 #include "include/my_tree.h"
+#include <stdio.h>
+#include <stdlib.h>
 /*
 typedef	int ElemType;			//数据类型
 typedef	int Status;			//返回值类型
