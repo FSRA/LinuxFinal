@@ -2,6 +2,7 @@
  * my_queue的实现文件
  */
 #include "include/my_queue.h"
+#include <stdlib.h>
 /*
 #define ElemType int
 #define Status int
