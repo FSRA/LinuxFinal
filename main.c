@@ -23,7 +23,8 @@ int main()
        BiTree T;
        int deepth,number=0;           //the element declaration of the tree
        
-       int visited[MAXVEX]={0};   //the element declaration of the graph
+       int visited[MAXVEX]={0};  
+       Graph g;//the element declaration of the graph
        
         int num[] = {98, 48, 777, 63, 57, 433, 23, 1112, 1};////the element declaration of the heap
        
