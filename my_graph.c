@@ -3,6 +3,8 @@
  */
 
 #include "include/my_graph.h"
+#include <stdlib.h>
+#include <stdio.h>
 /*#define MAXVEX  100                      
 #define INFINITY    65535          
 
