@@ -2,7 +2,7 @@
  * my_queue的实现文件
  */
 #include "include/my_queue.h"
-
+/*
 #define ElemType int
 #define Status int
 #define OK 1
@@ -19,7 +19,7 @@ typedef struct LinkQueue
     QNode *front;
     QNode *rear;
 }LinkQueue;
-
+*/
 Status InitQueue(LinkQueue *q)
 {
     q->front=q->rear=(QNode *)malloc(sizeof(QNode));
