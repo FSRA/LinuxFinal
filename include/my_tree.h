@@ -1,6 +1,6 @@
 #ifndef _MY_TREE_H
-#ifndef _MY_QUEUE_H
 #define _MY_TREE_H
+#include <my_queue.h>
 /*
 #define ElemType int;			//数据类型
 #define Status int;			//返回值类型
@@ -20,4 +20,3 @@ int TreeDeep(BiTree T);
 int Leafcount(BiTree T,int num);
 
 #endif //_MY_TREE_H
-#endif //_MY_QUEUE_H
