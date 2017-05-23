@@ -3,7 +3,7 @@
  */
 
 #include "include/my_tree.h"
-
+/*
 typedef	int ElemType;			//数据类型
 typedef	int Status;			//返回值类型
 
@@ -13,7 +13,7 @@ typedef struct BiTNode
     ElemType	data;					//数据域
     struct BiTNode	*lChild, *rChlid;	//左右子树域
   }BiTNode, *BiTree;
-
+*/
 //先序创建二叉树
 Status CreateBiTree(BiTree *T)
   {
