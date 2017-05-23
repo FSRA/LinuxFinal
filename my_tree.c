@@ -3,6 +3,7 @@
  */
 
 #include "include/my_tree.h"
+#include "include/my_queue.h"
 #include <stdio.h>
 #include <stdlib.h>
 /*
