@@ -11,11 +11,11 @@ typedef struct BiTNode
 	struct BiTNode *lChild, *rChlid;	//左右子树域
 }BiTNode, *BiTree;
 
-Status CreateBiTree(BiTree *T)
-void TraverseBiTree(BiTree T)
-void InOrderBiTree(BiTree T)
-void PostOrderBiTree(BiTree T)
-int TreeDeep(BiTree T)
-int Leafcount(BiTree T,int num)
+Status CreateBiTree(BiTree *T);
+void TraverseBiTree(BiTree T);
+void InOrderBiTree(BiTree T);
+void PostOrderBiTree(BiTree T);
+int TreeDeep(BiTree T);
+int Leafcount(BiTree T,int num);
 
 #endif //_MY_TREE_H
