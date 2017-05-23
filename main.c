@@ -7,7 +7,7 @@
 #include "include/my_graph.h"
 #include "include/my_heap.h"
 
-int main(void) 
+int main() 
 {
       int key;
 
