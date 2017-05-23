@@ -34,7 +34,7 @@ int main()
       
       switch(i)
       {
-         case 1：
+            case 1:
                    {    printf("Enter the five elements in the stack and verify the nature of the stack FILO：\n");
                         while ( ! stack_is_full() )
                           {
@@ -48,9 +48,9 @@ int main()
                           }
                          printf("\n");
                    }
-                   break；
+                   break;
                    
-          case 2：
+                         case 2:
                    { 
                         printf("Enter the five elements in the queue and verify the nature of the stack FIFO：\n");
                         for(i=0;i<n;++i)
@@ -67,9 +67,9 @@ int main()
                          Display(q);
                          free(q);
                      }
-                     break；
+                     break;
                      
-           case 3:
+                           case 3:
               {
                      printf("It is used to implement the pre order of the binary tree, the in order, and the post order traversal, and the depth of the tree and the number of leaf nodes of the tree\n");
                      printf("Please enter the value of the first node, -1 for no leaves:\n");
@@ -92,7 +92,7 @@ int main()
              }
                 break;
                 
-          case 4:
+            case 4:
              { 
                    printf("It is used to finish the BFS and DFS for the undirected graph,directed graph,the weighted undirected graph and the weighted directed graph\n");
                    printf("t is of 1~4,respectively are the undirected graph,directed graph,the weighted undirected graph and the weighted directed graph:\n");
@@ -108,7 +108,7 @@ int main()
                 }
                   break;
                   
-           case 5:
+            case 5:
              {
                  printf("The data of the heap sorting:\n");
                  for(i = 0; i < sizeof(num)/sizeof(int); i++)
