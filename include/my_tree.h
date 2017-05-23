@@ -1,8 +1,8 @@
 #ifndef _MY_TREE_H
+#ifndef _MY_QUEUE_H
 #define _MY_TREE_H
-
-#define ElemType int;			//数据类型
 /*
+#define ElemType int;			//数据类型
 #define Status int;			//返回值类型
 */
 //定义二叉树结构
