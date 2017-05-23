@@ -4,7 +4,7 @@
 
 #include "include/my_tree.h"
 
-typedef	int	ElemType;			//数据类型
+typedef	int ElemType;			//数据类型
 typedef	int Status;			//返回值类型
 
 //定义二叉树结构
