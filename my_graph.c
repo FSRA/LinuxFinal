@@ -3,7 +3,7 @@
  */
 
 #include "include/my_graph.h"
-#define MAXVEX  100                      
+/*#define MAXVEX  100                      
 #define INFINITY    65535          
 
 typedef struct
@@ -12,7 +12,7 @@ typedef struct
       int  arc[MAXVEX][MAXVEX];         //邻接矩阵，可看作边
       int  numVertexes, numEdges;      //图中当前的顶点数和边数
 }Graph;
-
+*/
 void CreateGraph(Graph *g)
 {    int i,j,k,w,t;
      printf("输入顶点数，边数和t（中间用空格）:");
