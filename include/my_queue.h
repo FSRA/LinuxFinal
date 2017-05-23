@@ -18,10 +18,10 @@ typedef struct LinkQueue
     QNode *rear;
 }LinkQueue;
 
-Status InitQueue(LinkQueue *q)
-Status EnQueue(LinkQueue *q,ElemType e)
-Status DeQueue(LinkQueue *q,ElemType *e)
-Status Display(LinkQueue *q)
-Status PrintfQueue(LinkQueue *Q)
+Status InitQueue(LinkQueue *q);
+Status EnQueue(LinkQueue *q,ElemType e);
+Status DeQueue(LinkQueue *q,ElemType *e);
+Status Display(LinkQueue *q);
+Status PrintfQueue(LinkQueue *Q);
 
 #endif //_MY_QUEUE_H
