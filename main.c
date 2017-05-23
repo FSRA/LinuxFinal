@@ -21,7 +21,7 @@ int main()
        InitQueue(q);                    //the element declaration of the queue
        
        BiTree T;
-       int deepth,num=0;           //the element declaration of the tree
+       int deepth,number=0;           //the element declaration of the tree
        
        int visited[MAXVEX]={0};   //the element declaration of the graph
        
@@ -86,8 +86,8 @@ int main()
                       deepth=TreeDeep(T);
                       printf("The deepth of the binary tree:%d",deepth);
                       printf("\n");
-                      Leafcount(T,num);
-                      printf("The number of the leaves:%d",num);
+                      Leafcount(T,number);
+                      printf("The number of the leaves:%d",number);
                       printf("\n");
              }
                 break;
