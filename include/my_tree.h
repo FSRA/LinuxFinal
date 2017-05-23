@@ -1,6 +1,6 @@
 #ifndef _MY_TREE_H
 #define _MY_TREE_H
-#include "include/my_queue.h"
+#include "my_queue.h"
 /*
 #define ElemType int;			//数据类型
 #define Status int;			//返回值类型
