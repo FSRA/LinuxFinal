@@ -1,5 +1,5 @@
-result:clean main.o my_stack.o my_queue.o my_tree.o my_graph.o my_heap.o
-	gcc main.o my_stack.o my_queue.o my_tree.o my_graph.o my_heap.o-o result
+main:main.o my_stack.o my_queue.o my_tree.o my_graph.o my_heap.o
+	gcc main.o my_stack.o my_queue.o my_tree.o my_graph.o my_heap.o -o main
 main.o:main.c
 	gcc -c main.c
 my_stack.o:my_stack.c
@@ -14,10 +14,4 @@ my_heap.o:my_heap.c
 	gcc -c my_heap.c
 
 clean:
-	if [ -e result ]; then rm result; fi
-	if [ -e main.o ]; then rm main.o; fi
-	if [ -e my_stack.o ]; then rm my_stack.o; fi
-	if [ -e my_queue.o ]; then rm my_queue.o; fi
-	if [ -e my_tree.o ]; then rm my_tree.o; fi
-	if [ -e my_graph.o ]; then rm my_graph.o; fi
-	if [ -e my_heap.o ]; then rm my_heap.o; fi
+	rm main *.o
