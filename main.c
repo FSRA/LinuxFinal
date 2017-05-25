@@ -30,10 +30,10 @@ int main()
        
         
       printf("Select the data structure to verify\n");
-      printf("Stack：1\tQueue：2\tTree：3\tGraph：4\tHeap：5\n");
+      printf("Stack：1\t Queue：2\t Tree：3\t Graph：4\t Heap：5\n");
       scanf("%d",&key);
       
-      switch(i)
+      switch(key)
       {
             case 1:
                    {    printf("Enter the five elements in the stack and verify the nature of the stack FILO：\n");
