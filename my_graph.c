@@ -19,13 +19,13 @@ int visited[100]={0};
 
 void CreateGraph(Graph *g)
 {    int i,j,k,w,t;
-     printf("输入顶点数，边数和t（中间用空格）:");
+     printf("Enter vertices, edges, and t (with space in between):");
      scanf("%d %d %d", &(g->numVertexes), &(g->numEdges),&t);
      printf("\n");
      for(i=1;i<=g->numVertexes;i++)
      {
            getchar();
-          printf("输入第%d顶点信息vexs[%d]=",i,i);
+          printf("Enter the %d vertex information",i,i);
           scanf("%c",&(g->vexs[i]));
      }
      printf("\n");
@@ -35,12 +35,12 @@ void CreateGraph(Graph *g)
                 else        g->arc[i][j]=0;
      for(k=1;k<=g->numEdges;k++)
            {
-            printf("输入i j（中间用空格）:");
+            printf("Enter i j(with space in the middle):");
             scanf("%d %d",&i,&j);
             if(i>g->numVertexes ||j>g->numVertexes)  exit(0);
             if(t>2)
             {
-                  printf("输入w:");
+                  printf("Input w:");
                  scanf("%d",&w);
                   g->arc[i][j]=w;
                   if(t==3)  g->arc[j][i]=w;
@@ -51,7 +51,7 @@ void CreateGraph(Graph *g)
             }
      }
      printf("\n");
-     printf("输出邻接矩阵:\n");
+     printf("Output adjacency matrix:\n");
      for(i=1;i<=g->numVertexes ;i++)
      {
 
