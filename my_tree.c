@@ -35,9 +35,9 @@ Status CreateBiTree(BiTree *T)
           exit(-1);
 
         (*T)->data = ch;
-        printf("Enter the left child node of % d", ch);
+        printf("Enter the left child node of % d ", ch);
         CreateBiTree(&(*T)->lChild);
-        printf("Enter the right child of % d", ch);
+        printf("Enter the right child of % d ", ch);
         CreateBiTree(&(*T)->rChlid);
     }
 
