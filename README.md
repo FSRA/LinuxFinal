@@ -2,8 +2,8 @@
 /* 22920152203891 LiuYifan */
 
     Hi,teacher! Here is an example for testing，If you have any question about this project,please contact me~ 
-    Thank the teacher for the patience of a semester to help me solve the problems, and the grade of this course is very important to me
-    Hope you could give me a satisfactory grade（*＾-＾*）
+    Thank the teacher for the patience of a semester to help me solve the problems, and the grade of this course is very 
+    important to me,Hope you could give me a satisfactory grade（*＾-＾*）
     My email：1169659587@qq.com
     My phone：18859278702
   
