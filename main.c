@@ -114,7 +114,7 @@ int main()
                  printf("Please input 5 datas of the heap sorting:\n");
                  for(i = 0; i < 5; i++)
                   {
-                      printf("%d", &num[i]);
+                      printf("%d", num[i]);
                   }
                   printf("\n");
                   HeapSort(num, sizeof(num)/sizeof(int));
