@@ -26,7 +26,7 @@ int main()
        int visited[MAXVEX]={0};  
        Graph g;//the element declaration of the graph
        
-        int num[] = {98, 48, 777, 63, 57, 433, 23, 1112, 1};////the element declaration of the heap
+        int num[] = {0};////the element declaration of the heap
        
         
       printf("Select the data structure to verify\n");
@@ -111,10 +111,10 @@ int main()
                   
             case 5:
              {
-                 printf("The data of the heap sorting:\n");
-                 for(i = 0; i < sizeof(num)/sizeof(int); i++)
+                 printf("Please input 5 datas of the heap sorting:\n");
+                 for(i = 0; i < 5; i++)
                   {
-                      printf("%d ", num[i]);
+                      scanf("%d", &num[i]);
                   }
                   printf("\n");
                   HeapSort(num, sizeof(num)/sizeof(int));
