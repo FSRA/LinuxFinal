@@ -25,7 +25,7 @@ void CreateGraph(Graph *g)
      for(i=1;i<=g->numVertexes;i++)
      {
            getchar();
-          printf("Enter the %d vertex information",i,i);
+          printf("Enter the %d vertex information vexs[%d]=",i,i);
           scanf("%c",&(g->vexs[i]));
      }
      printf("\n");
